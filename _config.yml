@@ -1,6 +1,26 @@
 # Site settings
+name: 阳光下的少年
+email: 1569955820@qq.com
+author: 阳光下的少年
+url: 
+resume_site: http://www.hifreud.com/Resume.io/
+github: https://github.com/chao124/
+baseurl: ""
+meta_description: 康志华;个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
+motto: It's our wits that make us men.
+banner: 学而不思则罔，思而不学则殆。
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: chao124
+
+
+baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
 title: HyG
-email: gaohaoyang126@126.com
 description: 浩阳的博客 前端爱好者
 # > # this means to ignore newlines until "baseurl:"
 #   Write an awesome description for your new site here. You can edit this
@@ -10,8 +30,6 @@ description: 浩阳的博客 前端爱好者
 # baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
-github_username:  chao124
-permalink: /:year/:month/:day/:title/
 
 # Build settings
 markdown: kramdown
